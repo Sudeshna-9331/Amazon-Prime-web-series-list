@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  sans-serif;
+  font-weight: lighter;
+
+}
+body{
+ height: 100%;
+  width: 100%;
+  background: linear-gradient(to right,rgba(131, 197, 206, 0.7), rgba(241, 172, 218, 0.7));
+}
+
+
+
+section{
+  padding-top: 5em;
+}
+.header p{
+  color: rgb(38, 119, 85);
+  font-size: 1.2rem;
+  letter-spacing: 7px;
+}
+.header{
+  background-color: rgb(243, 241, 250);
+  width: 100vw;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.8em;
+  box-shadow: 0 4px 15px 0 rgba(184, 60, 60, 0.2);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(102, 109, 105);
+  position: fixed;
+  z-index: 2;
+}
+
+.cards{
+ 
+   display: grid;
+    margin: 0 auto;   
+    max-width: 1170px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 6rem;
+    grid-row-gap: 2.5rem;
+    
+}
+.card{
+  border: 0.001px solid none;
+  height: 400px;
+  width: 220px;
+  box-shadow: 0 8px 12px 0 rgba(143, 137, 137, 0.2), 0 6px 20px 0 rgba(107, 101, 101, 0.19);
+  margin: 2rem auto;
+  background: ivory;
+  border-radius: 15px;
+}
+.card:hover{
+  transform: scale(1.1, 1.1);
+  transition: transform 0.5s;
+}
+.card .img{
+  width: 100%;
+  height: 60%;
+  border-radius: 15px 15px 0 0 ;
+  
+}
+p{
+  text-transform:uppercase;
+  padding: 1rem;
+  color: rgb(146, 140, 140);
+  font-size: 0.8rem;
+}
+h2{
+ height: 15%;
+  padding: 0 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  padding-right: 5px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+
+}
+button{
+ margin: 0 1.5rem;
+  border: 1px solid black;
+  background: transparent;
+ padding: 0.6rem 0;
+ 
+}
+button:hover{
+  background-color: rgb(49, 47, 48);
+  border: none;
+}
+
+a{
+  padding:  0.6rem;
+  text-decoration: none;
+  font-size:1.001em;
+  text-transform: uppercase;
+color: black;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+a:hover{
+  color: white;
+}
